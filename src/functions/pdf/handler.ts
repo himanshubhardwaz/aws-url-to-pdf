@@ -5,6 +5,7 @@ import schema from "./schema";
 const chromium = require("chrome-aws-lambda");
 
 async function getPdf(url: string) {
+  console.log({ url });
   if (!url || typeof url !== "string") {
     return new Error("Invalid URL: " + url);
   }

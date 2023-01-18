@@ -10,7 +10,7 @@ export default {
         path: "pdf",
         request: {
           schemas: {
-            "application/pdf": schema,
+            "application/json": schema,
           },
         },
       },
