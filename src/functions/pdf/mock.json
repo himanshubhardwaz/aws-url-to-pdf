@@ -1,6 +1,6 @@
 {
   "headers": {
-    "Content-Type": "application/json"
+    "Content-Type": "application/pdf"
   },
   "body": "{\"url\": \"https://nextjs.org\"}"
 }
