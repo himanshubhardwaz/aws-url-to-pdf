@@ -14,7 +14,6 @@ const serverlessConfiguration: AWS = {
     name: "aws",
     runtime: "nodejs14.x",
     apiGateway: {
-      binaryMediaTypes: ["*/*"],
       minimumCompressionSize: 1024,
       shouldStartNameWithService: true,
     },
